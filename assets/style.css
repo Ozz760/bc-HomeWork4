@@ -1,5 +1,10 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.view-score{
+    color: darkblue;
 }
 
 .title-opener{
@@ -13,4 +18,7 @@
 .start-button{
     text-align: center;
     margin-left: 49%;
+    background-color: darkblue;
+    color: white;
+    font-size: large;
 }
