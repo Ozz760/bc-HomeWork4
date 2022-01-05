@@ -1,4 +1,16 @@
-/* Start with the color you want to quiz to have. 
-/* Have all of the buttons be the same overall color. 
-/* Have the question in the center. 
-/* Have all of the options below it and stacked. 
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title-opener{
+    text-align: center;
+}
+
+.test-kno{
+    text-align: center;
+}
+
+.start-button{
+    text-align: center;
+    margin-left: 49%;
+}
