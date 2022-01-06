@@ -37,8 +37,9 @@ function startTimer() {
 function renderQuestion() { 
     var h4 = document.createElement("h4"); 
     h4.textContent = question[0].question; 
-
     qDisplay.append(h4); 
 }
+
+
 
 startButton.addEventListener('click', startGame); 
