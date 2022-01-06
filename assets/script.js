@@ -2,6 +2,7 @@ var questions = document.querySelector(".box");
 var container = document.querySelector(".container")
 var startButton = document.querySelector(".start-button")
 var timeEl = document.querySelector(".time");
+var questionEl = document.querySelectorAll(".questions")
 
 var secondsLeft = 75; 
 
@@ -18,28 +19,13 @@ var question = [
     }
 ];
 
-
-
-
-
-function startGame() {
-    setTimer();
-    displayQuestions();
-}
-
-
-
-
-
-
-
-
-
-
-
-
-// Make a timer for the quiz 
-// Make answers to the quiz 
-// Make a highscore page 
-// Make buttons for the user to put in their inisials 
-// Make a button for the game to start
+function startTimer() {
+    timer = setInterval(function() {
+      secondsLeft--;
+      timeEl.textContent = secondsLeft;
+      if (timerCount >= 0) {
+      } else (timerCount === 0) 
+      }
+    , 1000);
+  }
+  
