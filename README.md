@@ -6,3 +6,4 @@ I also still needed to have a scoreboard for the user to sumbit their initials f
 The timer for the game was also completed. 
 I will have to go back at a later time and add all of the JavaScript and make it a complete project. 
 
+![Screen Shot 2022-01-05 at 8 43 00 PM](https://user-images.githubusercontent.com/95610872/148330040-4a4b7e82-a2cc-4b6f-878e-70365f868946.png)
