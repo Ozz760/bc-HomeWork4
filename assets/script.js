@@ -3,8 +3,7 @@ var container = document.querySelector(".container")
 var startButton = document.querySelector(".start-button")
 var timeEl = document.querySelector(".time");
 var questionEl = document.querySelectorAll(".questions")
-
-var secondsLeft = 75; 
+var qDisplay = document.querySelector(".q-display")
 
 var question = [
     {
@@ -19,13 +18,27 @@ var question = [
     }
 ];
 
+var secondsLeft = 75; 
+
+function startGame() { 
+    startTimer()
+    renderQuestion()
+}
+
 function startTimer() {
     timer = setInterval(function() {
-      secondsLeft--;
-      timeEl.textContent = secondsLeft;
-      if (timerCount >= 0) {
-      } else (timerCount === 0) 
-      }
-    , 1000);
-  }
-  
+        secondsLeft--;
+        timeEl.textContent = secondsLeft;
+        if (timerCount >= 0) {
+        } else (timerCount === 0) 
+    }, 1000);
+}
+
+function renderQuestion() { 
+    var h4 = document.createElement("h4"); 
+    h4.textContent = question[0].question; 
+
+    qDisplay.append(h4); 
+}
+
+startButton.addEventListener('click', startGame); 
